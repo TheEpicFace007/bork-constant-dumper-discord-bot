@@ -23,7 +23,7 @@ namespace auto_server_side_fuck
         {
             var client = new RestClient("http://borks.club:2095/dumper");
             var request = new RestRequest(RestSharp.Method.POST);
-            request.AddParameter("code",ScriptToConstantDump);
+            request.AddParameter("code", ScriptToConstantDump);
             var response = await client.ExecuteAsync(request);
             Constants = response.Content;
             return response.Content;
@@ -31,15 +31,23 @@ namespace auto_server_side_fuck
 
         public void SetFileToConstantDump(FileStream file)
         {
-            string contentOfFile = "";
+            string[] contentOfFile = new string[] { };
             using (var reader = new StreamReader(file))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    contentOfFile.Append<>(line);
+                    contentOfFile.Append(line.ToString());
                 }
             }
+
+            string contentOfFileButItsAString = "";
+            foreach (var VARIABLE in contentOfFile)
+            {
+                contentOfFileButItsAString += contentOfFile;
+            }
+
+            ;
         }
     }
 }
