@@ -1,0 +1,23 @@
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\auto server side fuck.exe
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\auto server side fuck.deps.json
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\auto server side fuck.runtimeconfig.json
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\auto server side fuck.runtimeconfig.dev.json
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\auto server side fuck.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\auto server side fuck.pdb
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\Discord.Net.Commands.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\Discord.Net.Core.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\Discord.Net.Rest.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\Discord.Net.Webhook.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\Discord.Net.WebSocket.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\bin\Debug\netcoreapp3.1\System.Linq.Async.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.csprojAssemblyReference.cache
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.AssemblyInfoInputs.cache
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.AssemblyInfo.cs
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.csproj.CoreCompileInputs.cache
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.csproj.CopyComplete
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.dll
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.pdb
+C:\Users\ASD\Project\csharp\auto server side fuck\obj\Debug\netcoreapp3.1\auto server side fuck.genruntimeconfig.cache

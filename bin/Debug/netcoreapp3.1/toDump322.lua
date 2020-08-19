@@ -1,0 +1,4 @@
+-- dumping finished in 0.000 seconds
+-- https://discord.gg/xehA9ug
+-- error beautifying script
+-- Bad symbol `�` in source.
