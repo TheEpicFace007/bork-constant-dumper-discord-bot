@@ -7,9 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Discord.Net" Version="2.2.0" />
-    <PackageReference Include="MoonSharp" Version="2.0.0" />
-    <PackageReference Include="RestSharp" Version="106.11.5-alpha.0.18" />
+    <PackageReference Include="Discord.Net" Version="2.2.0"/>
+    <PackageReference Include="RestSharp" Version="106.11.5-alpha.0.18"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Channel.cs"/>
+    <None Include="Channel.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BotResource"/>
   </ItemGroup>
 
 </Project>
