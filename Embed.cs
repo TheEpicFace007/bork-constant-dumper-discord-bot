@@ -4,9 +4,6 @@ namespace auto_server_side_fuck
 {
     public class ErrorEmbed
     {
-        public string ErrorMessage { get; }
-        public Discord.EmbedBuilder Embed { get; }
-
         public ErrorEmbed(string errorMessage)
         {
             ErrorMessage = errorMessage;
@@ -19,5 +16,8 @@ namespace auto_server_side_fuck
             embed.Color = Color.Red;
             Embed = embed;
         }
+
+        public string ErrorMessage { get; }
+        public EmbedBuilder Embed { get; }
     }
 }

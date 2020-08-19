@@ -8,10 +8,6 @@ namespace auto_server_side_fuck
 {
     public class ConstantDumper
     {
-        public string UserAgent { get; set; }
-        public string ScriptToConstantDump { get; set; }
-        public string Constants { get; set; }
-
         public ConstantDumper(string scriptToConstantDump)
         {
             ScriptToConstantDump = scriptToConstantDump;
@@ -20,6 +16,10 @@ namespace auto_server_side_fuck
         public ConstantDumper()
         {
         }
+
+        public string UserAgent { get; set; }
+        public string ScriptToConstantDump { get; set; }
+        public string Constants { get; set; }
 
         public async Task<string> DumpConstantsAsync()
         {
@@ -105,10 +105,10 @@ namespace auto_server_side_fuck
                 "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36"
             };
             var client = new RestClient("http://borks.club:2095/dumper");
-            var request = new RestRequest(RestSharp.Method.POST);
+            var request = new RestRequest(Method.POST);
             // select a random user agent ~ fuck you bork
             var random = new Random();
-            string selectedUseragent = possibleUserAgent[random.Next(possibleUserAgent.Length)];
+            var selectedUseragent = possibleUserAgent[random.Next(possibleUserAgent.Length)];
             request.AddHeader("User-Agent", selectedUseragent);
 
             request.AddParameter("code", ScriptToConstantDump);
@@ -120,21 +120,15 @@ namespace auto_server_side_fuck
 
         public void SetFileToConstantDump(FileStream file)
         {
-            string[] contentOfFile = new string[] { };
+            string[] contentOfFile = { };
             using (var reader = new StreamReader(file))
             {
                 string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    contentOfFile.Append(line.ToString());
-                }
+                while ((line = reader.ReadLine()) != null) contentOfFile.Append(line);
             }
 
-            string contentOfFileButItsAString = "";
-            foreach (var VARIABLE in contentOfFile)
-            {
-                contentOfFileButItsAString += ScriptToConstantDump;
-            }
+            var contentOfFileButItsAString = "";
+            foreach (var VARIABLE in contentOfFile) contentOfFileButItsAString += ScriptToConstantDump;
         }
     }
 }
