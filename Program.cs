@@ -22,7 +22,7 @@ namespace auto_server_side_fuck
         {
             LogLevel = LogSeverity.Info
         });
-
+        
         public async Task MainAsync()
         {
             _client.Log += ClientOnLog;
@@ -39,6 +39,9 @@ namespace auto_server_side_fuck
         {
             if (message.Author == _client.CurrentUser || message.MentionedUsers == null) return Task.CompletedTask;
             foreach (var mention in message.MentionedUsers)
+                // initiate the channel object
+                var channel = _client.;
+            
                 if (mention.Username == _client.CurrentUser.Username || mention.Username == "Vini Dalvino#1239")
                 {
                     var errorMessage =
